@@ -13,16 +13,27 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 Necesitas tener git, docker y docker-compose instalados en la máquina.
 ```
-ejemplo:
+docker-compose version && git version
 ```
 
 ### Instalación 🔧
 
-_git clone https://bernatcosta@bitbucket.org/entornodesarrollocesur/miagenda.git
+#### Paso 1
+```
+git clone https://bernatcosta@bitbucket.org/entornodesarrollocesur/miagenda.git
+```
 
-_crea las carpetas mysql y sessions en el raiz
+#### Paso 2
+```
+Crea las carpetas mysql y sessions en el raiz
+```
 
-_docker-compose up -d
+#### Paso 3
+```
+docker-compose up -d
+```
+
+### Probar la app
 
 http://localhost:8000 para la web
 http://localhost:8001 para phpmyadmin

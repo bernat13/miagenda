@@ -33,7 +33,12 @@ Crea las carpetas mysql y sessions en el raiz
 docker-compose up -d
 ```
 
+
 ### Probar la app
 
-http://localhost:8000 para la web
-http://localhost:8001 para phpmyadmin
+#### App
+http://localhost:8000 
+
+
+#### phpmyadmin
+http://localhost:8001 
